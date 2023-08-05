@@ -4,8 +4,6 @@ pipeline {
     stage('build') {
       steps {
         echo 'this is build stage'
-        sh '''ls 
-pwd'''
       }
     }
 
