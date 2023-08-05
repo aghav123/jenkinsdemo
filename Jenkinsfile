@@ -20,4 +20,8 @@ pipeline {
     }
 
   }
+  environment {
+    build = '1'
+    test = '2'
+  }
 }
