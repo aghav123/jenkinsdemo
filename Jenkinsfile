@@ -4,6 +4,8 @@ pipeline {
     stage('build') {
       steps {
         echo 'this is build stage'
+        sh '''ls 
+pwd'''
       }
     }
 
@@ -19,9 +21,5 @@ pipeline {
       }
     }
 
-  }
-  environment {
-    build = '1'
-    test = '2'
   }
 }
