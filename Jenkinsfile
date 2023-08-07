@@ -6,6 +6,7 @@ pipeline {
         echo 'this is build stage'
         sh 'mvn clean '
         sh 'mvn compile'
+        sh 'mvn test'
       }
     }
 
